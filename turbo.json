@@ -9,12 +9,10 @@
       "dependsOn": ["^typecheck"]
     },
     "dev": {
-      "persistent": true,
-      "cache": false
+      "persistent": true
     },
     "lint": {
-      "dependsOn": ["^lint"],
-      "cache": false
+      "dependsOn": ["^lint"]
     },
     "format": {
       "dependsOn": ["^format"]
